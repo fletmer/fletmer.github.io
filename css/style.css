@@ -2446,7 +2446,7 @@ color
   width: auto;
 }
 .archive-article-inner .article-meta .article-date time {
-  color: #020202;
+  color: #aaa;
 }
 .archive-article-inner .article-meta .archive-article-date,
 .archive-article-inner .article-meta .article-tag-list {
@@ -3610,7 +3610,7 @@ a.gitment-editor-footer-tip:hover {
   width: auto;
 }
 .archive-article-inner .article-meta .article-date time {
-  color: #020202;
+  color: #aaa;
 }
 .archive-article-inner .article-meta .archive-article-date,
 .archive-article-inner .article-meta .article-tag-list {
@@ -5094,18 +5094,4 @@ pre .link_url {
     bottom: 0;
     margin: 0;
   }
-}
-body {
-  background: url("../img/p1543.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-  color: #000;
-}
-#container .left-col {
-  background: none !important;
-}
-.article-title {
-  color: #000;
 }
