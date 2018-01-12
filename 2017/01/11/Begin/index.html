@@ -379,21 +379,6 @@
 
 
     
-        <div id="gitments"></div>
-<script src="/js/gitment.browser.js"></script>
-<script>
-    var gitment = new Gitment({
-      id: window.location.pathname,
-      owner: 'fletmer',
-      repo: 'fletmer.github.io',
-      oauth: {
-        client_id: '',
-        client_secret: '',
-      },
-    })
-    gitment.render('gitments')
-</script>
-    
 
 
 
@@ -474,7 +459,7 @@
 
     <script>
         $(document).ready(function() {
-            var backgroundnum = 24;
+            var backgroundnum = 13;
             var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
             $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
             $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
